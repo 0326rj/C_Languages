@@ -7,25 +7,16 @@ using namespace std;
 
 int main()
 {
-	int x = 10;
-	int y = 20;
-	int z(30);
+	int x1;
+	int y1;
 
-	std::cout
-		<< "x , y = "
-		<< x + y + z
-		<< "\n";
+	x1 = 17;
+	y1 = 17;
 
-	int x2;
-	int y2;
-
-	std::cin
-		>> x2
-		>> y2;
-	std::cout
-		<< x2 + y2; 
-
-
+	cout
+		<< "18 + 63 = "
+		<< x1 + y1
+		<< " desu\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
