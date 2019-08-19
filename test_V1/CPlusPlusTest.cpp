@@ -1,30 +1,31 @@
 // test_V1.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+#include <ctime>
+#include <cstdlib>
+#include <string>
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-	int x = 10;
-	int y = 20;
-	int z(30);
+	string str;
 
-	std::cout
-		<< "x , y = "
-		<< x + y + z
-		<< "\n";
+	cout << "–¼‘O‚ð“ü—Í";
+	getline(cin, str);
 
-	int x2;
-	int y2;
+	cout << str << "‚³‚ñ";
 
-	std::cin
-		>> x2
-		>> y2;
-	std::cout
-		<< x2 + y2; 
+	// if
+	int n;
+	cout << "integer input";
+	cin >> n;
 
+	if (n > 0)
+	{
+
+	}
 
 }
 
