@@ -9,12 +9,22 @@ using namespace std;
 
 int main()
 {
-	double x;
+	int hand;
+	cin >> hand;
 
-	cout << "double..";
-	cin >> x;
-
-	if ( double n = fmod( x, 10 ) )
+	switch ( hand )
 	{
+	case 0: cout << "a";
+		break;
+	case 1: cout << "b";
+		break;
+	case 2: cout << "c";
+		break;
+	default: cout << "777";
+	}
+
+	if ( hand != 0 and hand >= 0 )
+	{
+		
 	}
 }
