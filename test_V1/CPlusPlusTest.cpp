@@ -9,22 +9,17 @@ using namespace std;
 
 int main()
 {
-	int hand;
-	cin >> hand;
+	int x;
 
-	switch ( hand )
+	do
 	{
-	case 0: cout << "a";
-		break;
-	case 1: cout << "b";
-		break;
-	case 2: cout << "c";
-		break;
-	default: cout << "777";
-	}
+		cin >> x;
 
-	if ( hand != 0 and hand >= 0 )
+	} while ( x <= 0 );
+
+	while ( x >= 0 )
 	{
-		
+		cout << x << "\n";
+		x--;
 	}
 }
